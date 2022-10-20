@@ -1,7 +1,7 @@
 {
   "name": "findfilefromselection",
   "displayName": "FindFileFromSelection",
-  "description": "search files by name from selected text",
+  "description": "find files by name from selected text",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.72.0"
@@ -10,13 +10,13 @@
     "Other"
   ],
   "activationEvents": [
-    "onCommand:findfilefromselection.helloWorld"
+    "onCommand:findfilefromselection.find"
   ],
   "main": "./out/extension.js",
   "contributes": {
     "commands": [
       {
-        "command": "findfilefromselection.helloWorld",
+        "command": "findfilefromselection.find",
         "title": "Find File From Selection"
       }
     ]
